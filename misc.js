@@ -1,0 +1,1 @@
+function getURLParameter(name) {return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);}jwplayer.key='XyKDz1KFv2iEARyRM3oiWyoVrkFdkJldRpaH93FuHJE=';
