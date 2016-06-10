@@ -606,4 +606,4 @@ this.language||e;if(!k[a])return this.notFoundCallback(Error("Missing context : 
 f.replace(RegExp("#"+e.vars[a],"g"),this.escapeStringReplacePlacement(c[e.vars[a]]));return f};sa.prototype.escapeStringReplacePlacement=function(a){return"string"===typeof a?a.replace(/\$/g,"$$$"):a};sa.prototype.hasTranslation=function(a,b,c){c=c||this.language;return!!(c&&c[a]&&c[a][b])};"undefined"!==typeof module&&(module.exports=sa);b.eventEmitter=new EventEmitter;b.eventEmitter.on("error",function(a){c.handleError("EventEmitter on error",a.fileName,a.lineNumber,a.stack)});b.loggingHandler=
 new x;b.eventHandler=new Z;b.activityManager=new P;b.scheduler=new Y;b.main=new V;b.languageParser=new sa(y.language);b.socketManager=new da;b.sessionHandler=new S;b.chatHandler=new N;b.agents=new ka;b.visitorHandler=new O;b.audioPlayer=new L;f=new G;b.fileUploadHandler=new Ha;void 0!==y.downloaded?(b.eventHandler.clearEvents(),b.eventEmitter.removeAllListeners(),b=null):(y.downloaded=!0,b.main.load())}catch(Aa){c.handleError(Aa.message,"tawk.js",Aa.lineNumber||Aa.line,Aa.stack)}}).call(this,window.$_Tawk);
 
-})(window);
+})(window); 
